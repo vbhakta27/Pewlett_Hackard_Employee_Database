@@ -8,7 +8,7 @@ order by emp_no;
 -- List employees hired in 1986
 select emp_no, first_name, last_name, hire_date
 from employees
-where hire_date like '1986%'
+where hire_date like '1986%';
 
 -- List the manager of each department: 
 -- department number, department name, the manager's employee number, last name, 
@@ -56,13 +56,18 @@ left join employees e
 on de.emp_no = e.emp_no
 left join departments d
 on de.dept_no = d.dept_no
-where d.dept_name = 'Sales' or d.dept_name = 'Development'
+where d.dept_name = 'Sales' or d.dept_name = 'Development';
 
 -- In descending order, list the frequency count of employee last names, 
 -- i.e., how many employees share each last name.
 select last_name, count(last_name)
 from employees
 group by last_name
-order by count desc
+order by count desc;
 
-
+--------------------------------------------------------------------
+-- Epilogue: Search your ID number: your employee ID number is 499942
+--------------------------------------------------------------------
+select * 
+from employees
+where emp_no = 499942;
