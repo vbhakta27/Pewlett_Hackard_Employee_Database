@@ -1,4 +1,4 @@
-# Employee Database: A Mystery in Two Parts
+# Pewlett Hackard Employee Database
 
 ## Background
 I have been tasked to investigate employees of Pewlett Hackard from the 1980s and 1990s. All that remain of the database of employees from that period are six CSV files.
