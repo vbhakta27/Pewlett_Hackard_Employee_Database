@@ -5,46 +5,36 @@ I have been tasked to investigate employees of Pewlett Hackard from the 1980s an
 
 ## Data Modeling
 First the CSVs were inspected and an ERD sketch of the tables was made using http://www.quickdatabasediagrams.com.
-<img src="EmployeeSQL/ERD of employees database.png">
+<img src="EmployeeSQL/images/ERD of employees database.png">
+
+## Data Engineering
+A table schema for each of the six CSV files was created using the ERD as a base. For each file I had to specify data types, primary keys, foreign keys, and other constraints. Next I imported each CSV file into the corresponding SQL table.
+
+## Data Analysis
+Once I had a complete database I wanted to create the following queries to get a better understanding of the data.
+
+1) Employee number, last name, first name, gender, and salary.
+<img src="EmployeeSQL/images/1.png">
+
+2) List employees who were hired in 1986.
 
 
-
-Data Engineering
-
-
-Use the information you have to create a table schema for each of the six CSV files. Remember to specify data types, primary keys, foreign keys, and other constraints.
+3) List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name, and start and end employment dates.
 
 
-Import each CSV file into the corresponding SQL table.
+4) List the department of each employee with the following information: employee number, last name, first name, and department name.
 
 
-
-Data Analysis
-Once you have a complete database, do the following:
+5) List all employees whose first name is "Hercules" and last names begin with "B."
 
 
-List the following details of each employee: employee number, last name, first name, gender, and salary.
+6) List all employees in the Sales department, including their employee number, last name, first name, and department name.
 
 
-List employees who were hired in 1986.
+7) List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
 
 
-List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name, and start and end employment dates.
-
-
-List the department of each employee with the following information: employee number, last name, first name, and department name.
-
-
-List all employees whose first name is "Hercules" and last names begin with "B."
-
-
-List all employees in the Sales department, including their employee number, last name, first name, and department name.
-
-
-List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
-
-
-In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+8) In descending order, listed the frequency count of employee last names, i.e., how many employees share each last name.
 
 
 
