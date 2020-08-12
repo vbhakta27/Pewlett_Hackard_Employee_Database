@@ -5,6 +5,7 @@ I have been tasked to investigate employees of Pewlett Hackard from the 1980s an
 
 ## Data Modeling
 First the CSVs were inspected and an ERD sketch of the tables was made using http://www.quickdatabasediagrams.com.
+<img src="EmployeeSQL/ERD of employees database.png">
 
 
 
