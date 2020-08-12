@@ -17,26 +17,28 @@ Once I had a complete database I wanted to create the following queries to get a
 <img src="EmployeeSQL/images/1.png">
 
 2) List employees who were hired in 1986.
-
+<img src="EmployeeSQL/images/2.png">
 
 3) List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name, and start and end employment dates.
-
+<img src="EmployeeSQL/images/3.png">
 
 4) List the department of each employee with the following information: employee number, last name, first name, and department name.
-
+<img src="EmployeeSQL/images/4.png">
 
 5) List all employees whose first name is "Hercules" and last names begin with "B."
-
+<img src="EmployeeSQL/images/5.png">
 
 6) List all employees in the Sales department, including their employee number, last name, first name, and department name.
-
+<img src="EmployeeSQL/images/6.png">
 
 7) List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
-
+<img src="EmployeeSQL/images/7.png">
 
 8) In descending order, listed the frequency count of employee last names, i.e., how many employees share each last name.
+<img src="EmployeeSQL/images/8.png">
 
-
+9) Searched ID number 499942.
+<img src="EmployeeSQL/images/9.png">
 
 Bonus (Optional)
 As you examine the data, you are overcome with a creeping suspicion that the dataset is fake. You surmise that your boss handed you spurious data in order to test the data engineering skills of a new employee. To confirm your hunch, you decide to take the following steps to generate a visualization of the data, with which you will confront your boss:
