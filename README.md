@@ -44,7 +44,9 @@ Once I had a complete database I wanted to create the following queries to get a
 As I examined the data, I had a suspicion that the dataset is fake. I decided to import the SQL database into Pandas using SQLAlchemy and created the following charts: 
 
 Histogram to visualize the most common salary ranges for employees.
+
 <img src="EmployeeSQL/images/Salary Ranges for Employees.png">
 
 Bar chart of average salary by title.
+
 <img src="EmployeeSQL/images/Salary Breakdown by Title.png">
